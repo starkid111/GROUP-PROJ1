@@ -5,7 +5,22 @@ module.exports = {
     "./src/**/*.{html,js}",
 ],
   theme: {
-    extend: {},
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+      
+    },
+    extend: {
+      textUnderLineOffset: {
+        2: "2px",
+      },
+      colors: {
+        theBlueHere: "#0B153C"
+
+      }
+    },
   },
   plugins: [],
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,64 @@
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1 class="text-white container mx-auto text-3xl underline bg-slate-600">Hello Everyone</h1>
-    <p class="para container mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt facilis eaque enim dolorum dicta ea id odit magnam nemo veniam?</p>
+    <section id="my part">
+        <nav class="relative container bg-theBlueHere  mx-auto p-6">
+            <div class="flex item-centre justify-between">
+                <div class="-pt-2 pl-0">
+                    <h1 class="text-2xl font-semibold text-white underline decoration-blue-400">Vaccination.ng</h1>
+                </div>
+                <div class="hidden md:flex mt-1 space-x-6">
+                    <a href="#" class="hover:font-bold text-white">Home</a>
+                    <a href="#" class="hover:font-bold text-white">Service</a>
+                    <a href="#" class="hover:font-bold text-white">Schedule</a>
+                    <a href="#" class="hover:font-bold text-white">Contact us</a>
+                </div>
+                <a href="#" class="hidden md:block py-1 px-6 pt-1 text-blue-400 bg-blue-950 rounded-full baseline 
+                hover:text-blue-950 hover:bg-blue-400">Check Status</a>
+            </div>
+        </nav>
+    </section>
+
+    <section id="hero">
+        <!-- for the flex container to hold all these -->
+        <div class="container flex flex-col md:flex-row item-center pl-0 mx-auto mt-10 md:space-y-0">
+            <!-- left side of the container-->
+            <div class="flex flex-col mb-32 space-y-6 md:1/2">
+                <h1
+                    class="max-w-md ml-0 pl-0 text-blue-300 text-1xl font-semibold text-center md:text-1xl md:text-left">
+                    Get Vaccinated. Boost your Immune System
+                </h1>
+                <p class="max-w-sm text-4xl text-center font-bold text-white md:text-left">
+                    COVID-19 Vaccination Got Easier With,
+                    <br>
+                    <span class="max-w-sm text-4xl mt-0 text-center font-bold text-blue-300 md:text-left">Vaccination.ng
+                    </span>
+                </p>
+                <p class="max-w-md ml-0 pl-0 text-white text-1xl font-semibold text-center md:w-603 text-1xl
+                md:text-left">Vaccination.ng will help you find the nearest centre for vaccination, in all 36 states in
+                    Nigeria.
+                </p>
+
+                <div class="flex flex-row justify-start space-x-2 md:flex-row">
+                    <a href="#" class="px-4 py-1 text-white bg-blue-900 rounded-md
+                    hover:text-slate-200 hover:bg-blue-400">Get Vaccine</a>
+                    <a href="#" class="px-4 py-1 text-white bg-blue-900 rounded-md
+                    hover:text-slate-200 hover:bg-blue-400">Help Centre</a>
+                </div>
+                
+            </div>
+            <div class="md: pr-0">
+                <img src="/src/image.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+
 </body>
-</html> 
+
+</html>
 
 
-<!--npx tailwindcss -i ./src/input.css -o ./src/output.css --watch-->
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
