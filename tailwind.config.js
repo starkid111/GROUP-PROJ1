@@ -13,7 +13,11 @@ module.exports = {
       
     },
     extend: {
+      textUnderLineOffset: {
+        2: "2px",
+      },
       colors: {
+        theBlueHere: "#0B153C"
 
       }
     },
