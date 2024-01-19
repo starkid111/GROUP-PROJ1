@@ -9,6 +9,8 @@ body {
 
 .covidForm {
     background-image: url("/images/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .covidBox {
@@ -20,4 +22,10 @@ body {
 }
 .bground {
     background:   rgba(196, 196, 196, 0.05);;
+}
+
+.vaccination {
+    background-image: url("/images/bg-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
