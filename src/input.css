@@ -4,5 +4,20 @@
 
 body {
     background-image: url("../src/img.svg");
-    background-size: 800px;
+    
+}
+
+.covidForm {
+    background-image: url("/images/bg-2.png");
+}
+
+.covidBox {
+    background: rgba(196, 196, 196, 0.10);
+}
+
+.gray {
+    border:3px solid rgba(196, 196, 196, 0.15);
+}
+.bground {
+    background:   rgba(196, 196, 196, 0.05);;
 }
